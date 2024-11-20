@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "cac79780c7a9c414",
+    "type": "split",
+    "children": [
+      {
+        "id": "813955bbb1a5310f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47b64720869e692f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "문법 or 사용법 모음/Git 명령어 & tip.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git 명령어 & tip"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "152fd373dcef32e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3727377c98fa0aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48f1f5fdaa3ea671",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "44cf7bb8c935bbc6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "7e61cedacf27ea00",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "ebd929b35e279491",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ec6ed15aa56ce5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0d7d87d7f2e76d2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "62b6fa9bdf136aae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "f3d768af8020469b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fc283a0132990927",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          },
+          {
+            "id": "086c64a5ada56b33",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "47b64720869e692f",
+  "lastOpenFiles": [
+    "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
+    "문법 or 사용법 모음/JS, TS.md",
+    "문법 or 사용법 모음/타입스크립트 문법 Tip.md",
+    "문법 or 사용법 모음/PanDoc 사용방식.md",
+    "ㄱ. 해야할 일/해야할 공부.md",
+    "ㄱ. 해야할 일/소프트웨어 관리  추가 개발(3차) 사항.md",
+    "ㄱ. 해야할 일/SMP 2차 설계 관련 사항들.md",
+    "ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
+    "이미지 모음/E-chart 데이터 및 스타일 설정 방식.md",
+    "이미지 모음/Pasted image 20240110171547.png",
+    "이미지 모음/에러 처리 방식 다국어 적용.png",
+    "이미지 모음",
+    "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+    "ㄱ. 해야할 일/2차 (2. 29 기한) 데모 선 개발 관련 사항들.md",
+    "이미지 모음/Pasted image 20240912174820.png",
+    "이미지 모음/Pasted image 20240830163624.png",
+    "이미지 모음/Pasted image 20240830163000.png",
+    "이미지 모음/Pasted image 20240830162305.png",
+    "이미지 모음/Pasted image 20240830162046.png",
+    "이미지 모음/Pasted image 20240723182137.png",
+    "이미지 모음/Pasted image 20240723181913.png",
+    "이미지 모음/Pasted image 20240723181501.png",
+    "회의 관련/01. 31 2차 개발 컨셉 회의.md",
+    "회의 관련",
+    "학습/파이썬/fastapi 프로젝트생성 (windows).md",
+    "학습/파이썬",
+    "학습/타입스크립트/tsconfig.js.md",
+    "학습/타입스크립트",
+    "학습/자바스크립트/자바스크립트 딥다이브/이미지",
+    "학습/자바스크립트/하이드레이션 ( 자바스크립트 프레임워크 페이지가 서버에서 렌더링 된 이후에 브라우저에서 초기화되는 프로세스 ).md",
+    "학습/자바스크립트/자바스크립트 엔진과 런타임 개념 차이 간단 정리.md",
+    "학습/자바스크립트/자바스크립트 딥다이브",
+    "학습/자바스크립트/Package.json과 Package-lock.json.md",
+    "학습/자바스크립트",
+    "학습/리눅스",
+    "학습/Vue/Life Cycle.md",
+    "학습/Type Script/통신 에러 처리 타입 설정.md",
+    "학습/VITE/VITE에 대해.md",
+    "학습/Docker/Docker Volume 개념, 사용법.md",
+    "학습/간단 기록.md",
+    "학습/웹 페이지 성능 지표.md",
+    "학습/Vue",
+    "학습/VITE",
+    "학습/Nginx.md",
+    "문제 해결/routesDefault에서 name 적용이 안되는 경우.md",
+    "문제 해결/도커 컨테이너 ip nginx 연결 오류 문제 원인 해결.md"
+  ]
+}
