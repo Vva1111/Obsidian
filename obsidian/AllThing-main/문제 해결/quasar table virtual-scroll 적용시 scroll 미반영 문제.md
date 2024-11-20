@@ -1,1 +1,0 @@
-- q-table tag 내부 속성에 style 사용해서 max-height 설정해줘야 scroll 생긴다.
