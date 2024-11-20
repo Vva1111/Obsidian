@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "문법 or 사용법 모음/Git 명령어 & tip.md",
+                "file": "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git 명령어 & tip"
+              "title": "2. 해야할 일 ( 매일 확인하기 )"
             }
           }
         ]
@@ -156,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 248.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,6 +171,8 @@
   },
   "active": "47b64720869e692f",
   "lastOpenFiles": [
+    "ㄱ. 해야할 일/2차 (2. 29 기한) 데모 선 개발 관련 사항들.md",
+    "문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
     "문법 or 사용법 모음/JS, TS.md",
     "문법 or 사용법 모음/타입스크립트 문법 Tip.md",
@@ -184,7 +186,6 @@
     "이미지 모음/에러 처리 방식 다국어 적용.png",
     "이미지 모음",
     "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
-    "ㄱ. 해야할 일/2차 (2. 29 기한) 데모 선 개발 관련 사항들.md",
     "이미지 모음/Pasted image 20240912174820.png",
     "이미지 모음/Pasted image 20240830163624.png",
     "이미지 모음/Pasted image 20240830163000.png",
@@ -215,7 +216,6 @@
     "학습/Vue",
     "학습/VITE",
     "학습/Nginx.md",
-    "문제 해결/routesDefault에서 name 적용이 안되는 경우.md",
-    "문제 해결/도커 컨테이너 ip nginx 연결 오류 문제 원인 해결.md"
+    "문제 해결/routesDefault에서 name 적용이 안되는 경우.md"
   ]
 }
