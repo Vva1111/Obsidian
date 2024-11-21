@@ -68,4 +68,8 @@
 **git checkout -b v1.0.3-v6419 origin/v1.0.3** : origin의 v1.0.3 브랜치를 바라보는 로컬 v1.0.3-v6419 브랜치를 생성하고, 해당 브랜치로 이동
 
 ###### **Tag**
+- git tags -a {태그 이름} -m '설명'
+- git push origin {태그 이름}
 - 
+
+태그를 push 할 경우, 브랜치를 push할 때와 같이 git push origin {tag name} 형식으로 태그 이름을 지정해서 push 해야 한다.
