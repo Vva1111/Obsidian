@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
+                "file": "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GARNET V1.3 변경 or 확정 사항들"
+              "title": "2. 해야할 일 ( 매일 확인하기 )"
             }
           }
         ]
@@ -171,21 +171,30 @@
   },
   "active": "47b64720869e692f",
   "lastOpenFiles": [
-    "ㄱ. 해야할 일/소프트웨어 관리  추가 개발(3차) 사항.md",
+    "ㄱ. 해야할 일/해야할 공부.md",
+    "ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
     "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
+    "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+    "ㄴ. 했던 일/프로젝트 관련/2차 (2. 29 기한) 데모 선 개발 관련 사항들.md",
+    "ㄴ. 했던 일/Docker + GitLab CICD 구성/도커 + 깃랩러너 설치.md",
+    "ㄴ. 했던 일/Node.js 버전 업그레이드/Node.js 버전 업그레이드.md",
+    "ㄴ. 했던 일/Nginx를 사용한 다수의 프로젝트 배포.md",
+    "ㄴ. 했던 일/GIT 초기 구성.md",
+    "ㄴ. 했던 일/Docker를 사용해 Nginx 설치.md",
+    "ㄴ. 했던 일/Docker 설치 과정.md",
+    "ㄴ. 했던 일/프로젝트 관련/SMP 2차 설계 관련 사항들.md",
+    "ㄴ. 했던 일/프로젝트 관련/소프트웨어 관리  추가 개발(3차) 사항.md",
+    "ㄴ. 했던 일/프로젝트 관련/~ Garnet v1.2.md",
+    "ㄴ. 했던 일/프로젝트 관련/~ v1.2(Davis Lite).md",
+    "ㄴ. 했던 일/프로젝트 관련",
     "문법 or 사용법 모음/Git 명령어 & tip.md",
     "문법 or 사용법 모음/JS, TS.md",
-    "ㄱ. 해야할 일/2차 (2. 29 기한) 데모 선 개발 관련 사항들.md",
     "문법 or 사용법 모음/타입스크립트 문법 Tip.md",
     "문법 or 사용법 모음/PanDoc 사용방식.md",
-    "ㄱ. 해야할 일/해야할 공부.md",
-    "ㄱ. 해야할 일/SMP 2차 설계 관련 사항들.md",
-    "ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
     "이미지 모음/E-chart 데이터 및 스타일 설정 방식.md",
     "이미지 모음/Pasted image 20240110171547.png",
     "이미지 모음/에러 처리 방식 다국어 적용.png",
     "이미지 모음",
-    "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "이미지 모음/Pasted image 20240912174820.png",
     "이미지 모음/Pasted image 20240830163624.png",
     "이미지 모음/Pasted image 20240830163000.png",
@@ -207,15 +216,6 @@
     "학습/자바스크립트/Package.json과 Package-lock.json.md",
     "학습/자바스크립트",
     "학습/리눅스",
-    "학습/Vue/Life Cycle.md",
-    "학습/Type Script/통신 에러 처리 타입 설정.md",
-    "학습/VITE/VITE에 대해.md",
-    "학습/Docker/Docker Volume 개념, 사용법.md",
-    "학습/간단 기록.md",
-    "학습/웹 페이지 성능 지표.md",
-    "학습/Vue",
-    "학습/VITE",
-    "학습/Nginx.md",
-    "문제 해결/routesDefault에서 name 적용이 안되는 경우.md"
+    "학습/Vue"
   ]
 }
