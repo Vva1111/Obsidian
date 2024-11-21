@@ -21,6 +21,15 @@
 
 - git rm --cached {file} : Tip. 1의 경우에서 로컬 파일은 그대로 남겨두고 추적만 중지하는 명령어
 
+#### Config
+
+###### **branch.{main}.merge
+- Git에서 특정 브랜치(위는 main)가 다른 브랜치와 병합할 때 사용할 기본 병합 브랜치 지정 설정
+- git pull 명령어를 사용할 때 어떤 브랜치에서 변경 사항을 가져올지 결정하는데 사용
+- { } 에 지정된 브랜치가 병합할 기본 브랜치를 지정한다.
+- 병합할 브랜치를 특정하지 않는 기본 git pull 명령어를 사용할 때 적용되는 설정
+
+
 ###### **upstream**
 - 업스트림 브랜치는 로컬 브랜치가 추적하는 원격 브랜치를 의미한다.
 - 업스트림 설정 이후에는 git push/pull 명령의 경우 자동으로 해당 원격 브랜치와 상호 작용한다.
@@ -36,9 +45,24 @@
 	- **git branch --unset-upstream**
 		- 현재 체크아웃한 브랜치의 업스트림 브랜치를 설정 해제하는데 사용
 
-###### **브랜치 삭제**
+
+#### etc
+
+###### **Delete**
 - git branch -d {브랜치 이름} : 브랜치 삭제
 - git push origin --delete {브랜치 이름} : 원격 저장소 브랜치 삭제
+
+- 로컬에 저장되어 있는 원격 브랜치 목록은 한번에 삭제할 수 없기 때문에
+```git
+git branch -r | grep -v '\->' | awk '{print $1}' | xargs -n 1 git branch -d -r
+```
+	- git branch -r : 원격 브랜치 목록을 가져온다
+	- grep -v '\->' : 심볼릭 브랜치(ex: origin/HEAD)를 제외한다.
+	- awk '{print $1}' : 브랜치 이름만 추출한다.
+	- xargs -n 1 git branch -d -r : 각 원격 브랜치 삭제
+	- 
+	위와 같은 명령어 조합을 사용해 한번에 삭제해야 한다. 
+	-> 한 번 해봤을 때는 HEAD까지 모두 삭제됐음
 
 ###### **push**
 - git push --force origin main : 원격 main 브랜치에 강제 push
