@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "813955bbb1a5310f",
+        "id": "10c9de8f68c1517d",
         "type": "tabs",
         "children": [
           {
-            "id": "47b64720869e692f",
+            "id": "1179f6c39b5128c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "문법 or 사용법 모음/Git 명령어 & tip.md",
+                "file": "학습/Docker/Docker Volume 개념, 사용법.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git 명령어 & tip"
+              "title": "Docker Volume 개념, 사용법"
             }
           }
         ]
@@ -169,9 +169,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47b64720869e692f",
+  "active": "1179f6c39b5128c3",
   "lastOpenFiles": [
+    "학습/Nginx.md",
+    "회의 관련/01. 31 2차 개발 컨셉 회의.md",
+    "학습/SQLite/이미지/Untitled.png",
+    "학습/SQLite/이미지/Untitled 1.png",
+    "학습/SQLite/이미지/Untitled 2.png",
+    "학습/SQLite/이미지/Untitled 3.png",
+    "학습/SQLite/이미지/Untitled 5.png",
+    "학습/SQLite/이미지/Untitled 3 1.png",
+    "학습/SQLite/이미지/Untitled 6.png",
+    "학습/SQLite/이미지/Untitled 7.png",
+    "학습/SQLite/이미지/Untitled 7 1.png",
+    "학습/SQLite/이미지/Untitled 7 2.png",
+    "학습/SQLite/SQLite.md",
+    "문법 or 사용법 모음/PanDoc 사용방식.md",
+    "문법 or 사용법 모음/docker 문법 모음.md",
+    "학습/SQLite/이미지",
+    "학습/Type Script/통신 에러 처리 타입 설정.md",
+    "학습/Docker/Docker Volume 개념, 사용법.md",
+    "SQLite 222.md",
     "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+    "문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
     "ㄱ. 해야할 일/해야할 공부.md",
     "ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
@@ -187,35 +207,15 @@
     "ㄴ. 했던 일/프로젝트 관련/~ Garnet v1.2.md",
     "ㄴ. 했던 일/프로젝트 관련/~ v1.2(Davis Lite).md",
     "ㄴ. 했던 일/프로젝트 관련",
-    "문법 or 사용법 모음/Git 명령어 & tip.md",
     "문법 or 사용법 모음/JS, TS.md",
     "문법 or 사용법 모음/타입스크립트 문법 Tip.md",
-    "문법 or 사용법 모음/PanDoc 사용방식.md",
-    "이미지 모음/E-chart 데이터 및 스타일 설정 방식.md",
-    "이미지 모음/Pasted image 20240110171547.png",
-    "이미지 모음/에러 처리 방식 다국어 적용.png",
     "이미지 모음",
-    "이미지 모음/Pasted image 20240912174820.png",
-    "이미지 모음/Pasted image 20240830163624.png",
-    "이미지 모음/Pasted image 20240830163000.png",
-    "이미지 모음/Pasted image 20240830162305.png",
-    "이미지 모음/Pasted image 20240830162046.png",
-    "이미지 모음/Pasted image 20240723182137.png",
-    "이미지 모음/Pasted image 20240723181913.png",
-    "이미지 모음/Pasted image 20240723181501.png",
-    "회의 관련/01. 31 2차 개발 컨셉 회의.md",
     "회의 관련",
-    "학습/파이썬/fastapi 프로젝트생성 (windows).md",
     "학습/파이썬",
-    "학습/타입스크립트/tsconfig.js.md",
     "학습/타입스크립트",
     "학습/자바스크립트/자바스크립트 딥다이브/이미지",
-    "학습/자바스크립트/하이드레이션 ( 자바스크립트 프레임워크 페이지가 서버에서 렌더링 된 이후에 브라우저에서 초기화되는 프로세스 ).md",
-    "학습/자바스크립트/자바스크립트 엔진과 런타임 개념 차이 간단 정리.md",
     "학습/자바스크립트/자바스크립트 딥다이브",
-    "학습/자바스크립트/Package.json과 Package-lock.json.md",
     "학습/자바스크립트",
-    "학습/리눅스",
-    "학습/Vue"
+    "학습/리눅스"
   ]
 }
