@@ -81,6 +81,8 @@ git branch -r | grep -v '\->' | awk '{print $1}' | xargs -n 1 git branch -d -r
 	- git stash pop stash@{0/1/2/3~}
 - git stash apply : stash 된 모든 사항을 디렉토리로 복구하고 stash 된 내역은 삭제되지 않는다.
 	- git stash apply stash@{0/1/2/3~}
+- git stash drop stash@{0, 1, 2, ~} : 특정 stash 항목 삭제
+- git stash clear : 모든 stash 항목 한번에 삭제
 
 ###### **git status** : 현재 stage할 내용이 있는지 확인
 

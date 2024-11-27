@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "93ae522e0253a3e8",
+        "id": "813d362598febea5",
         "type": "tabs",
         "children": [
           {
-            "id": "4f68e4e890c18219",
+            "id": "0803301293bed750",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ㄴ. 했던 일/Nginx를 사용한 다수의 프로젝트 배포.md",
+                "file": "문법 or 사용법 모음/Git 명령어 & tip.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nginx를 사용한 다수의 프로젝트 배포"
-            }
-          },
-          {
-            "id": "0c08e80022120dbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "학습/VITE/Vite.config.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vite.config"
+              "title": "Git 명령어 & tip"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,11 +169,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c08e80022120dbd",
+  "active": "0803301293bed750",
   "lastOpenFiles": [
-    "학습/VITE/VITE에 대해.md",
-    "학습/VITE/Vite.config.md",
     "ㄴ. 했던 일/Nginx를 사용한 다수의 프로젝트 배포.md",
+    "학습/VITE/Vite.config.md",
+    "학습/VITE/VITE에 대해.md",
     "문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄴ. 했던 일/GIT 초기 구성.md",
     "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
