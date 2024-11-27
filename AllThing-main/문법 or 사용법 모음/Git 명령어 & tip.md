@@ -48,6 +48,14 @@
 
 #### etc
 
+###### **commit**
+- git add .(혹은 파일 이름) : 모든 파일 staging
+- git restore --staged .(혹은 파일 이름) : staging 되어 있는 모든 파일 unstaging
+- git commit -m '커밋메세지' : 스테이징 된 파일들 commit, 일정 파일만 업로드 하고 싶다면 해당하는 파일만 스테이징 시킨 후 해당 명령어를 사용한다.
+- git push origin \<branch> : 커밋된 사항들을 원격에 push
+- git push --force origin main : 원격 main 브랜치에 강제 push
+
+
 ###### **Delete**
 - git branch -d {브랜치 이름} : 브랜치 삭제
 - git push origin --delete {브랜치 이름} : 원격 저장소 브랜치 삭제
@@ -64,8 +72,7 @@ git branch -r | grep -v '\->' | awk '{print $1}' | xargs -n 1 git branch -d -r
 	위와 같은 명령어 조합을 사용해 한번에 삭제해야 한다. 
 	-> 한 번 해봤을 때는 HEAD까지 모두 삭제됐음
 
-###### **push**
-- git push --force origin main : 원격 main 브랜치에 강제 push
+
 ###### **stash**
 - **\*stash 된 내역은 브랜치와 상관 없이 전역에 존재한다**
 - git stash show -p stash@{0} : stash 된 내용 보기

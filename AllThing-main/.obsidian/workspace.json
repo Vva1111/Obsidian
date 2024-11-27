@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
+                "file": "문법 or 사용법 모음/Git 명령어 & tip.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 해야할 일 ( 매일 확인하기 )"
+              "title": "Git 명령어 & tip"
             }
           }
         ]
@@ -171,8 +171,9 @@
   },
   "active": "4f68e4e890c18219",
   "lastOpenFiles": [
-    "ㄱ. 해야할 일/해야할 공부.md",
+    "ㄴ. 했던 일/GIT 초기 구성.md",
     "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
+    "ㄱ. 해야할 일/해야할 공부.md",
     "학습/Docker/Docker Volume 개념, 사용법.md",
     "학습/Nginx.md",
     "회의 관련/01. 31 2차 개발 컨셉 회의.md",
@@ -199,7 +200,6 @@
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/도커 + 깃랩러너 설치.md",
     "ㄴ. 했던 일/Node.js 버전 업그레이드/Node.js 버전 업그레이드.md",
     "ㄴ. 했던 일/Nginx를 사용한 다수의 프로젝트 배포.md",
-    "ㄴ. 했던 일/GIT 초기 구성.md",
     "ㄴ. 했던 일/Docker를 사용해 Nginx 설치.md",
     "ㄴ. 했던 일/Docker 설치 과정.md",
     "ㄴ. 했던 일/프로젝트 관련/SMP 2차 설계 관련 사항들.md",
