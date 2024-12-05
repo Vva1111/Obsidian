@@ -7,7 +7,10 @@
 		 - store : 인증 정보를 평문으로 파일에 저장, git-credentials 파일
 		 - cache : 인증 정보를 일정 시간 동안 메모리에 저장
 4.  이전 커밋을 되돌리거나 하는 상황 이후에 다시 pull을 받았을 때, 변경사항이 이전의 커밋에서 변경되지 않을때는 브랜치를 삭제한 후 새로 브랜치를 받고 pull을 받아 변경사항을 적용해야 한다. 해당 로컬 브랜치와 원격 브랜트는 서로 다른커밋을 가지고 있기 때문
-5. 
+5. **git checkout -b <생성하려는 브랜치> origin/<참고하려는 원격 브랜치>** : origin의 브랜치를 바라보는 로컬 브랜치를 생성하고, 해당 브랜치로 이동
+6. ㅁㅁ
+
+
 ##### 명령어
 - **Git 초기 설정에 필요한 명령어**
 	1. git config
@@ -46,7 +49,7 @@
 		- 현재 체크아웃한 브랜치의 업스트림 브랜치를 설정 해제하는데 사용
 
 
-#### **etc**
+#### etc
 
 ###### **Revert**
 - 특정 커밋의 변경 사항을 취소하는 새로운 커밋 생성
@@ -55,6 +58,8 @@
 git revert -m <commit_hash>
 ```
 - **-m** : mainline을 의미하며, 병합 커밋의 부모 중에서 어떤 부모를 기준으로 되돌릴지를 설정한다.
+- revert 할 커밋의 부모 커밋을 확인하려면 **git show <확인할 커밋 hash>** 를 사용한다.
+
 
 ###### **Reset**
 - 현재 브랜치의 HEAD를 특정 커밋으로 이동하고, 그 이후의 커밋을 삭제 또는 변경
@@ -64,6 +69,7 @@ git revert -m <commit_hash>
 ```git
 git reset --mixed <commit_hash>
 ```
+
 
 ###### **commit**
 - git add .(혹은 파일 이름) : 모든 파일 staging
@@ -101,11 +107,14 @@ git branch -r | grep -v '\->' | awk '{print $1}' | xargs -n 1 git branch -d -r
 - git stash drop stash@{0, 1, 2, ~} : 특정 stash 항목 삭제
 - git stash clear : 모든 stash 항목 한번에 삭제
 
+
 ###### **git status** : 현재 stage할 내용이 있는지 확인
+
 
 ###### **git diff** 
 - 수정된 파일들의 변경사항을 자세히 보여준다. 아직 스테이징 되지 않은 변경사항을 보여준다.
 - **git diff --staged(--cached)** : 스테이징 된 변경사항과 마지막 커밋 사이의 차이를 보여준다.
+
 
 ###### **git log**
 - 커밋 히스토리를 보여준다.
@@ -113,9 +122,13 @@ git branch -r | grep -v '\->' | awk '{print $1}' | xargs -n 1 git branch -d -r
 - **git log --stat** : 각 커밋에서 변경된 파일의 목록과 각 파일에서 추가/삭제된 줄의 수를 보여준다.
 - **git log --oneline --graph** : 깃 로그를 그림으로 보여준다
 
-**git show {커밋 아이디}** : 특정 커밋의 상세한 변경 사항을 보여준다 .
 
-**git checkout -b v1.0.3-v6419 origin/v1.0.3** : origin의 v1.0.3 브랜치를 바라보는 로컬 v1.0.3-v6419 브랜치를 생성하고, 해당 브랜치로 이동
+###### **git show {커밋 아이디}**
+- 특정 커밋의 상세한 변경 사항을 보여준다 .
+
+
+
+
 
 ###### **Tag**
 - git tags -a {태그 이름} -m '설명'
