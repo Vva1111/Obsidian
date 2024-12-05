@@ -72,11 +72,12 @@ git reset --mixed <commit_hash>
 
 
 ###### **commit**
-- git add .(혹은 파일 이름) : 모든 파일 staging
-- git restore --staged .(혹은 파일 이름) : staging 되어 있는 모든 파일 unstaging
-- git commit -m '커밋메세지' : 스테이징 된 파일들 commit, 일정 파일만 업로드 하고 싶다면 해당하는 파일만 스테이징 시킨 후 해당 명령어를 사용한다.
-- git push origin \<branch> : 커밋된 사항들을 원격에 push
-- git push --force origin main : 원격 main 브랜치에 강제 push
+- **git add .(혹은 파일 이름)** : 모든 파일 staging
+- **git restore --staged .(혹은 파일 이름)** : staging 되어 있는 모든 파일 unstaging
+- **git commit -m '커밋메세지'** : 스테이징 된 파일들 commit, 일정 파일만 업로드 하고 싶다면 해당하는 파일만 스테이징 시킨 후 해당 명령어를 사용한다.
+- **git commit --amend -m '수정할 메세지'** : 방금 전 커밋의 메세지만 변경하고 싶은 경우 사용
+- **git push origin \<branch>** : 커밋된 사항들을 원격에 push
+- **git push --force origin main**: 원격 main 브랜치에 강제 push
 
 
 ###### **Delete**
