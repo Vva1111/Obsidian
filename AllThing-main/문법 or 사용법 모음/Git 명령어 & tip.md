@@ -54,7 +54,7 @@
 		 - 옵션 목록
 			 - **store** : 인증 정보를 평문으로 git-credentials 파일에 저장, 
 			 - **cache** : 인증 정보를 일정 시간 동안 메모리에 저장, 기본 15분, 'cache --timeout=시간' 으로 timeout 시간 설정 가능
-			 - **osxkeychain** : macOS에서 사용할 수 있는 방식, macOS의 keychain에 자격 증명을 저장한다. 보안성이 높음
+			 - **osxkeychain** : macOS에서 사용할 수 있는 방식, macOS의 keychain에 자격 증명을 저장한다. 보안성 높음
 			 - **wincred** : Windows에서 사용할 수 있는 옵션, Windows 자격 증명 관리자에 자격 증명을 저장한다. 보안성 높음
 			 - **manager 또는 manager-core** : Git Credential Manager를 사용해 자격 증명을 관리한다. Windows, macOS, Linux 모두 사용 가능하며, 여러 인증 방법을 지원한다.
 
