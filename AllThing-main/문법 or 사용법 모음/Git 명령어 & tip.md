@@ -13,11 +13,11 @@
 
 ##### 명령어
 - **Git 초기 설정에 필요한 명령어**
-	1. git config
+	1. **git config**
 		- git config --list : 현재 Git 설정 정보 확인
 		- git config (--global) user.name(user.email) : 로컬(혹은 글로벌) 이름(이메일) 설정
 		- 
-	2. git remote
+	2. **git remote**
 		- git remote add origin https://git~~~~~ : 현재 로컬의 원격 저장소를 설정
 		- git remote set-url origin https://git~~~~~ : 현재 설정된 원격 저장소를 변경
 		- git remote remove origin : 현재 설정된 원격 저장소를 삭제
