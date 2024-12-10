@@ -1,14 +1,9 @@
 ##### Tip.
 1. gitignore 내부에 ignore할 목록들은 이미 추적되고 있는 파일들에 대해서 적용되지 않는다. gitignore에 새로운 규칙을 추가해도 이미 추적하고 있는 파일들은 그대로 남아있기 때문에 계속 추적되고, 업데이트 된다.
 2. 1은 pull 명령어에도 동일하게 적용된다.
-3. git config --list의 credential 항목은 Git에서 사용하는 인증 정보에 관련된 설정을 나타낸다.
-	 원격 저장소와의 통신에는 매번 사용자 인증 정보가 필요한데, 이를 기억하게 하기 위한 기능이다.
-	 - Credential.helper : Git이 인증 정보를 어떻게 저장하고 찾을지 결정
-		 - store : 인증 정보를 평문으로 파일에 저장, git-credentials 파일
-		 - cache : 인증 정보를 일정 시간 동안 메모리에 저장
-4.  이전 커밋을 되돌리거나 하는 상황 이후에 다시 pull을 받았을 때, 변경사항이 이전의 커밋에서 변경되지 않을때는 브랜치를 삭제한 후 새로 브랜치를 받고 pull을 받아 변경사항을 적용해야 한다. 해당 로컬 브랜치와 원격 브랜트는 서로 다른커밋을 가지고 있기 때문
-5. **git checkout -b <생성하려는 브랜치> origin/<참고하려는 원격 브랜치>** : origin의 브랜치를 바라보는 로컬 브랜치를 생성하고, 해당 브랜치로 이동
-6. ㅁㅁ
+3.  이전 커밋을 되돌리거나 하는 상황 이후에 다시 pull을 받았을 때, 변경사항이 이전의 커밋에서 변경되지 않을때는 브랜치를 삭제한 후 새로 브랜치를 받고 pull을 받아 변경사항을 적용해야 한다. 해당 로컬 브랜치와 원격 브랜트는 서로 다른커밋을 가지고 있기 때문
+4. **git checkout -b <생성하려는 브랜치> origin/<참고하려는 원격 브랜치>** : origin의 브랜치를 바라보는 로컬 브랜치를 생성하고, 해당 브랜치로 이동
+5. ㅁㅁ
 
 
 ##### 명령어
@@ -50,6 +45,22 @@
 
 
 #### etc
+
+###### **Credential - 인증**
+- **git config --global credential.helper store 
+- git config --list의 credential 항목은 Git에서 사용하는 인증 정보에 관련된 설정을 나타낸다.
+	 원격 저장소와의 통신에는 매번 사용자 인증 정보가 필요한데, 이를 기억하게 하기 위한 기능이다.
+	 - Credential.helper : Git이 인증 정보를 어떻게 저장하고 찾을지 결정
+		 - 옵션 목록
+			 - **store** : 인증 정보를 평문으로 git-credentials 파일에 저장, 
+			 - **cache** : 인증 정보를 일정 시간 동안 메모리에 저장, 기본 15분, 'cache --timeout=시간' 으로 timeout 시간 설정 가능
+			 - **osxkeychain** : macOS에서 사용할 수 있는 방식, macOS의 keychain에 자격 증명을 저장한다. 보안성이 높음
+			 - **wincred** : Windows에서 사용할 수 있는 옵션, Windows 자격 증명 관리자에 자격 증명을 저장한다. 보안성 높음
+			 - **manager 또는 manager-core** : Git Credential Manager를 사용해 자격 증명을 관리한다. Windows, macOS, Linux 모두 사용 가능하며, 여러 인증 방법을 지원한다.
+
+- **git config --global --unset credential.helper
+	- credential 설정 삭제
+	- 해당 명령을 사용하면 Git은 더 이상 자격 증명 저장 방식을 사용하지 않는다.
 
 ###### **Revert**
 - 특정 커밋의 변경 사항을 취소하는 새로운 커밋 생성
