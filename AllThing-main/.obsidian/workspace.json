@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "문법 or 사용법 모음/Git 명령어 & tip.md",
+                "file": "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git 명령어 & tip"
+              "title": "2. 해야할 일 ( 매일 확인하기 )"
             }
           }
         ]
@@ -171,14 +171,15 @@
   },
   "active": "0803301293bed750",
   "lastOpenFiles": [
+    "ㄱ. 해야할 일/해야할 공부.md",
     "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
+    "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+    "문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄴ. 했던 일/테이블 검색 공통 컴포넌트 제작.md",
     "ㄴ. 했던 일/GIT 초기 구성.md",
     "ㄴ. 했던 일/Nginx를 사용한 다수의 프로젝트 배포.md",
-    "문법 or 사용법 모음/Git 명령어 & tip.md",
     "학습/VITE/Vite.config.md",
     "학습/VITE/VITE에 대해.md",
-    "ㄱ. 해야할 일/해야할 공부.md",
     "학습/Docker/Docker Volume 개념, 사용법.md",
     "학습/Nginx.md",
     "회의 관련/01. 31 2차 개발 컨셉 회의.md",
@@ -198,7 +199,6 @@
     "학습/SQLite/이미지",
     "학습/Type Script/통신 에러 처리 타입 설정.md",
     "SQLite 222.md",
-    "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
     "ㄴ. 했던 일/프로젝트 관련/2차 (2. 29 기한) 데모 선 개발 관련 사항들.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/도커 + 깃랩러너 설치.md",
