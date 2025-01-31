@@ -6,6 +6,8 @@
 	- -f : follow, 로그 출력이 실시간으로 계속 이어서 표시됨, 새로운 로그 발생 시 즉시 콘솔에 출력
 	- -n : 이후에 선언한 숫자 만큼의 log 표현
 - **docker network ls** : network 목록 표시
+	- **docker network connect(or disconnect) <네트워크 이름> <컨테이너 이름 or ID>**
+		컨테이너를 특정 네트워크와 연결(또는 연결 해제)한다.
 - **docker network inspect {network 이름}** : 해당하는 네트워크 정보 파악
 - **docker build -t {이미지 이름}:{태그} {Dockerfile 위치 or . }** .
 	- docker 이미지를 빌드하는 명령어
