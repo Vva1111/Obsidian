@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
+                "file": "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 해야할 일 ( 매일 확인하기 )"
+              "title": "1. 접속, 인증 정보 등등"
             }
           }
         ]
@@ -172,6 +172,7 @@
   },
   "active": "f7156a4f91346f21",
   "lastOpenFiles": [
+    "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
     "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "학습/Docker/Docker 스터디 추가 정리 사항.md",
     "문법 or 사용법 모음/docker 문법 모음.md",
@@ -184,7 +185,6 @@
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/GitLab Runner 설치 과정.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/main build - BT build 분리 과정.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/Vite 환경 설정.md",
-    "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
     "문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄴ. 했던 일/GIT 초기 구성.md",
     "문법 or 사용법 모음/CMD(명령 프롬프트) 문법.md",
