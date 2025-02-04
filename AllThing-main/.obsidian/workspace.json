@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "1. 접속, 인증 정보 등등"
             }
+          },
+          {
+            "id": "e2edfc0533046a87",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +183,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7156a4f91346f21",
+  "active": "e2edfc0533046a87",
   "lastOpenFiles": [
     "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
     "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
