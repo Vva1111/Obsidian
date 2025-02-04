@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "문법 or 사용법 모음/리눅스 설치 과정.md",
+                "file": "ㄴ. 했던 일/Node.js 버전 업그레이드/Node.js 버전 업그레이드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "리눅스 설치 과정"
+              "title": "Node.js 버전 업그레이드"
             }
           }
         ]
@@ -172,8 +172,12 @@
   },
   "active": "f7156a4f91346f21",
   "lastOpenFiles": [
-    "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+    "ㄴ. 했던 일/프로젝트 관련/SMP 2차 설계 관련 사항들.md",
+    "ㄴ. 했던 일/프로젝트 관련/소프트웨어 관리  추가 개발(3차) 사항.md",
+    "ㄴ. 했던 일/프로젝트 관련/2차 (2. 29 기한) 데모 선 개발 관련 사항들.md",
+    "문제 해결/통신 에러 처리(catch) 에서 타입 설정 방법.png",
     "문법 or 사용법 모음/리눅스 설치 과정.md",
+    "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "ㄱ. 해야할 일/2. 해야할 일 ( 매일 확인하기 ).md",
     "학습/Docker/Docker 스터디 추가 정리 사항.md",
     "문법 or 사용법 모음/docker 문법 모음.md",
@@ -181,7 +185,6 @@
     "문제 해결/Vite 빌드 파일 제외 적용.md",
     "문제 해결/routesDefault에서 name 적용이 안되는 경우.md",
     "문제 해결/quasar table virtual-scroll 적용시 scroll 미반영 문제.md",
-    "문제 해결/통신 에러 처리(catch) 에서 타입 설정 방법.png",
     "문제 해결/도커 컨테이너 ip nginx 연결 오류 문제 원인 해결.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/GitLab Runner 설치 과정.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/main build - BT build 분리 과정.md",
@@ -196,7 +199,6 @@
     "학습/VITE/Vite.config.md",
     "학습/VITE/VITE에 대해.md",
     "학습/Nginx.md",
-    "회의 관련/01. 31 2차 개발 컨셉 회의.md",
     "학습/SQLite/이미지/Untitled.png",
     "학습/SQLite/이미지/Untitled 1.png",
     "학습/SQLite/이미지/Untitled 2.png",
@@ -206,8 +208,6 @@
     "학습/SQLite/이미지/Untitled 6.png",
     "학습/SQLite/이미지/Untitled 7.png",
     "학습/SQLite/이미지/Untitled 7 1.png",
-    "학습/SQLite/SQLite.md",
-    "문법 or 사용법 모음/PanDoc 사용방식.md",
     "학습/SQLite/이미지",
     "ㄴ. 했던 일/프로젝트 관련",
     "이미지 모음",
