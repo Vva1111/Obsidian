@@ -17,7 +17,7 @@
 		- git remote set-url origin https://git~~~~~ : 현재 설정된 원격 저장소를 변경
 		- git remote remove origin : 현재 설정된 원격 저장소를 삭제
 
-- git rm --cached {file} : Tip. 1의 경우에서 로컬 파일은 그대로 남겨두고 추적만 중지하는 명령어
+- **git rm --cached {file}** : Tip. 1의 경우에서 로컬 파일은 그대로 남겨두고 추적만 중지하는 명령어
 
 #### Config
 
@@ -74,9 +74,9 @@ git revert -m <commit_hash>
 
 ###### **Reset**
 - 현재 브랜치의 HEAD를 특정 커밋으로 이동하고, 그 이후의 커밋을 삭제 또는 변경
-- --soft : HEAD를 이동시키지만, 작업 디렉토리와 인덱스는 변경하지 않는다.
-- --mixed : HEAD를 이동시키고, 인덱스를 변경하지만 작업 디렉토리는 변경되지 않는다.
-- --hard : HEAD를 이동시키고, 인덱스와 작업 디렉토리 모두를 변경한다.
+- **--soft** : HEAD를 이동시키지만, 작업 디렉토리와 인덱스는 변경하지 않는다.
+- **--mixed** : HEAD를 이동시키고, 인덱스를 변경하지만 작업 디렉토리는 변경되지 않는다.
+- **--hard** : HEAD를 이동시키고, 인덱스와 작업 디렉토리 모두를 변경한다.
 ```git
 git reset --mixed <commit_hash>
 ```
@@ -92,8 +92,8 @@ git reset --mixed <commit_hash>
 
 
 ###### **Delete**
-- git branch -d {브랜치 이름} : 브랜치 삭제
-- git push origin --delete {브랜치 이름} : 원격 저장소 브랜치 삭제
+- **git branch -d {브랜치 이름}** : 브랜치 삭제
+- **git push origin --delete {브랜치 이름}** : 원격 저장소 브랜치 삭제
 
 - 로컬에 저장되어 있는 원격 브랜치 목록은 한번에 삭제할 수 없기 때문에
 ```git
@@ -110,23 +110,20 @@ git branch -r | grep -v '\->' | awk '{print $1}' | xargs -n 1 git branch -d -r
 
 ###### **stash**
 - **\*stash 된 내역은 브랜치와 상관 없이 전역에 존재한다**
-- git stash show -p stash@{0} : stash 된 내용 보기
-- git stash list : stash 되어 있는 목록 보기
-- git stash pop : stash 된 모든 사항을 디렉토리로 복구한 뒤 stash 내역 삭제
+- **git stash show -p stash@{0}** : stash 된 내용 보기
+- **git stash list** : stash 되어 있는 목록 보기
+- **git stash pop** : stash 된 모든 사항을 디렉토리로 복구한 뒤 stash 내역 삭제
 	- git stash pop stash@{0/1/2/3~}
-- git stash apply : stash 된 모든 사항을 디렉토리로 복구하고 stash 된 내역은 삭제되지 않는다.
+- **git stash apply** : stash 된 모든 사항을 디렉토리로 복구하고 stash 내역은 그대로 남겨둔다.
 	- git stash apply stash@{0/1/2/3~}
-- git stash drop stash@{0, 1, 2, ~} : 특정 stash 항목 삭제
-- git stash clear : 모든 stash 항목 한번에 삭제
-
+- **git stash drop stash@{0, 1, 2, ~}** : 특정 stash 항목 삭제
+- **git stash clear** : 모든 stash 항목 한번에 삭제
 
 ###### **git status** : 현재 stage할 내용이 있는지 확인
-
 
 ###### **git diff** 
 - 수정된 파일들의 변경사항을 자세히 보여준다. 아직 스테이징 되지 않은 변경사항을 보여준다.
 - **git diff --staged(--cached)** : 스테이징 된 변경사항과 마지막 커밋 사이의 차이를 보여준다.
-
 
 ###### **git log**
 - 커밋 히스토리를 보여준다.
@@ -134,17 +131,11 @@ git branch -r | grep -v '\->' | awk '{print $1}' | xargs -n 1 git branch -d -r
 - **git log --stat** : 각 커밋에서 변경된 파일의 목록과 각 파일에서 추가/삭제된 줄의 수를 보여준다.
 - **git log --oneline --graph** : 깃 로그를 그림으로 보여준다
 
-
 ###### **git show {커밋 아이디}**
 - 특정 커밋의 상세한 변경 사항을 보여준다 .
 
 
-
-
-
 ###### **Tag**
-- git tags -a {태그 이름} -m '설명'
-- git push origin {태그 이름}
-- 
-
-태그를 push 할 경우, 브랜치를 push할 때와 같이 git push origin {tag name} 형식으로 태그 이름을 지정해서 push 해야 한다.
+- **git tags -a {태그 이름} -m '설명'**
+- **git push origin {태그 이름}**
+- 태그를 push 할 경우, 브랜치를 push할 때와 같이 git push origin {tag name} 형식으로 태그 이름을 지정해서 push 해야 한다.
