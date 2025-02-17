@@ -20,7 +20,6 @@ support.oracle.com 기술 서비스 요청 2차 인증 글로벌 엔지니어
   
 
 ## 2. 인스턴스 생성
-
   
 
 ### 1) Compartment 생성
