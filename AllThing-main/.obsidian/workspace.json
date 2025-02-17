@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
+                "file": "ㄷ. 문법 or 사용법 모음/Window CMD(명령 프롬프트) 문법.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git 명령어 & tip"
+              "title": "Window CMD(명령 프롬프트) 문법"
             }
           }
         ]
@@ -172,6 +172,7 @@
   },
   "active": "f7156a4f91346f21",
   "lastOpenFiles": [
+    "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄴ. 했던 일/GIT 초기 구성.md",
     "ㄴ. 했던 일/오라클 클라우드 환경 조성/1단계 - 유료 계정 전환, 인스턴스 생성, 예약된 퍼블릭 IP 주소 할당.md",
     "ㄴ. 했던 일/오라클 클라우드 환경 조성/2단계 - 알림 설정, ssh 접속.md",
@@ -181,7 +182,6 @@
     "ㄱ. 해야할 일/해야할 공부.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/도커 + 깃랩러너 설치.md",
     "ㄷ. 문법 or 사용법 모음/리눅스 명령어.md",
-    "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄷ. 문법 or 사용법 모음/docker 문법 모음.md",
     "ㄴ. 했던 일/Node.js 버전 업그레이드/Node.js 버전 업그레이드.md",
     "ㄴ. 했던 일/프로젝트 관련/SMP 2차 설계 관련 사항들.md",
@@ -198,7 +198,7 @@
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/GitLab Runner 설치 과정.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/main build - BT build 분리 과정.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/Vite 환경 설정.md",
-    "ㄷ. 문법 or 사용법 모음/CMD(명령 프롬프트) 문법.md",
+    "ㄷ. 문법 or 사용법 모음/Window CMD(명령 프롬프트) 문법.md",
     "ㄹ. 학습/SQLite/이미지/Untitled.png",
     "ㄹ. 학습/SQLite/이미지/Untitled 1.png",
     "ㄹ. 학습/SQLite/이미지/Untitled 2.png",
