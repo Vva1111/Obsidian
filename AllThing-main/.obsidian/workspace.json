@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ㄴ. 했던 일/Docker + GitLab CICD 구성/Docker + Gitlab 프로젝트 분리 설정 추가.md",
+                "file": "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker + Gitlab 프로젝트 분리 설정 추가"
+              "title": "1. 접속, 인증 정보 등등"
             }
           }
         ]
@@ -172,8 +172,10 @@
   },
   "active": "f7156a4f91346f21",
   "lastOpenFiles": [
-    "ㄴ. 했던 일/Docker + GitLab CICD 구성/Vite 환경 설정.md",
+    "ㄴ. 했던 일/Nginx를 사용한 다수의 프로젝트 배포.md",
+    "ㄷ. 문법 or 사용법 모음/리눅스 명령어.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/Docker + Gitlab 프로젝트 분리 설정 추가.md",
+    "ㄴ. 했던 일/Docker + GitLab CICD 구성/Vite 환경 설정.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/GitLab Runner 설치 과정.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/코드 변경에 따른 변경 사항 미적용 문제.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/프로젝트 Build 분리 구성.md",
@@ -194,10 +196,8 @@
     "ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
     "ㄱ. 해야할 일/해야할 공부.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/도커 + 깃랩러너 설치.md",
-    "ㄷ. 문법 or 사용법 모음/리눅스 명령어.md",
     "ㄷ. 문법 or 사용법 모음/docker 문법 모음.md",
     "ㄴ. 했던 일/Node.js 버전 업그레이드/Node.js 버전 업그레이드.md",
-    "ㄴ. 했던 일/프로젝트 관련/SMP 2차 설계 관련 사항들.md",
     "ㅁ. 문제 해결/통신 에러 처리(catch) 에서 타입 설정 방법.png",
     "ㄹ. 학습/SQLite/이미지/Untitled.png",
     "ㄹ. 학습/SQLite/이미지/Untitled 1.png",
