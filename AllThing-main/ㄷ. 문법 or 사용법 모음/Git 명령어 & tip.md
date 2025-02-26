@@ -111,6 +111,7 @@ git branch -r | grep -v '\->' | awk '{print $1}' | xargs -n 1 git branch -d -r
 ###### **stash**
 - **\*stash 된 내역은 브랜치와 상관 없이 전역에 존재한다**
 - **git stash show -p stash@{0}** : stash 된 내용 보기
+	- **git stash show -p stash@{0} -- <파일명>** : 특정 파일 보기
 - **git stash list** : stash 되어 있는 목록 보기
 - **git stash pop** : stash 된 모든 사항을 디렉토리로 복구한 뒤 stash 내역 삭제
 	- git stash pop stash@{0/1/2/3~}
