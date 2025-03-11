@@ -25,12 +25,14 @@
             "id": "85afb967ad8a5532",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "1. 접속, 인증 정보 등등"
             }
           }
         ],
@@ -185,6 +187,8 @@
   },
   "active": "85afb967ad8a5532",
   "lastOpenFiles": [
+    "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
+    "ㄴ. 했던 일/GIT 초기 구성.md",
     "ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "ㅁ. 문제 해결/Vue computed 속성 미반응 문제.md",
@@ -199,10 +203,8 @@
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/프로젝트 Build 분리 구성.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/CICD 빌드-배포 속도 개선.md",
     "ㄴ. 했던 일/Docker + GitLab CICD 구성/main build - BT build 분리 과정.md",
-    "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
     "ㄴ. 했던 일/테이블 검색 공통 컴포넌트 제작.md",
-    "ㄴ. 했던 일/GIT 초기 구성.md",
     "ㄴ. 했던 일/Docker 설치 과정.md",
     "ㄷ. 문법 or 사용법 모음/Window CMD(명령 프롬프트) 문법.md",
     "ㄴ. 했던 일/오라클 클라우드 환경 조성/1단계 - 유료 계정 전환, 인스턴스 생성, 예약된 퍼블릭 IP 주소 할당.md",
