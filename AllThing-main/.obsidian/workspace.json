@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "1. 접속, 인증 정보 등등"
             }
+          },
+          {
+            "id": "85afb967ad8a5532",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +183,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f42f718c0afdcbb",
+  "active": "85afb967ad8a5532",
   "lastOpenFiles": [
     "ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
