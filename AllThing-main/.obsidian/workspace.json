@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+                "file": "ㅁ. 문제 해결/도커 컨테이너 ip nginx 연결 오류 문제 원인 해결.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 해야할 일 ( IDC )"
+              "title": "도커 컨테이너 ip nginx 연결 오류 문제 원인 해결"
+            }
+          },
+          {
+            "id": "9a7ab77cbafa964c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ㅁ. 문제 해결/Nginx upstream server 설정 문제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nginx upstream server 설정 문제"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,12 +185,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d0476d017e348ab2",
+  "active": "9a7ab77cbafa964c",
   "lastOpenFiles": [
+    "Pasted image 20250313171814.png",
+    "ㅁ. 문제 해결/도커 컨테이너 ip nginx 연결 오류 문제 원인 해결.md",
+    "ㅁ. 문제 해결/Nginx upstream server 설정 문제.md",
+    "ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄴ. 했던 일/GIT 초기 구성.md",
-    "ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "ㅁ. 문제 해결/Vue computed 속성 미반응 문제.md",
     "ㄷ. 문법 or 사용법 모음/PanDoc 사용방식.md",
     "ㄴ. 했던 일/Nginx를 사용한 다수의 프로젝트 배포.md",
@@ -195,9 +213,6 @@
     "ㄴ. 했던 일/오라클 클라우드 환경 조성/1단계 - 유료 계정 전환, 인스턴스 생성, 예약된 퍼블릭 IP 주소 할당.md",
     "ㄴ. 했던 일/오라클 클라우드 환경 조성/2단계 - 알림 설정, ssh 접속.md",
     "ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
-    "ㄱ. 해야할 일/해야할 공부.md",
-    "ㄴ. 했던 일/Docker + GitLab CICD 구성/도커 + 깃랩러너 설치.md",
-    "ㄷ. 문법 or 사용법 모음/docker 문법 모음.md",
     "ㅁ. 문제 해결/통신 에러 처리(catch) 에서 타입 설정 방법.png",
     "ㄹ. 학습/SQLite/이미지/Untitled.png",
     "ㄹ. 학습/SQLite/이미지/Untitled 1.png",
