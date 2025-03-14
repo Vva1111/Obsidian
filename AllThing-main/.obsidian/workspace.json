@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ㅁ. 문제 해결/Nginx upstream server 설정 문제.md",
+                "file": "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nginx upstream server 설정 문제"
+              "title": "Git 명령어 & tip"
             }
           }
         ],
@@ -187,14 +187,17 @@
   },
   "active": "9a7ab77cbafa964c",
   "lastOpenFiles": [
-    "Pasted image 20250313171814.png",
+    "ㅁ. 문제 해결/Vite 빌드 파일 제외 적용.md",
+    "ㅁ. 문제 해결/Vue computed 속성 미반응 문제.md",
+    "ㅁ. 문제 해결/routesDefault에서 name 적용이 안되는 경우.md",
+    "ㅁ. 문제 해결/quasar table virtual-scroll 적용시 scroll 미반영 문제.md",
     "ㅁ. 문제 해결/도커 컨테이너 ip nginx 연결 오류 문제 원인 해결.md",
-    "ㅁ. 문제 해결/Nginx upstream server 설정 문제.md",
+    "ㅁ. 문제 해결/서버에 올린 GUI에서 활성화 된 서버에 접근이 되지 않는 문제 - Nginx upstream server 설정 문제.md",
+    "ㅎ. 이미지 모음/Pasted image 20250313171814.png",
     "ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄴ. 했던 일/GIT 초기 구성.md",
-    "ㅁ. 문제 해결/Vue computed 속성 미반응 문제.md",
     "ㄷ. 문법 or 사용법 모음/PanDoc 사용방식.md",
     "ㄴ. 했던 일/Nginx를 사용한 다수의 프로젝트 배포.md",
     "ㄴ. 했던 일/Docker를 사용해 Nginx 설치.md",
@@ -211,8 +214,6 @@
     "ㄴ. 했던 일/Docker 설치 과정.md",
     "ㄷ. 문법 or 사용법 모음/Window CMD(명령 프롬프트) 문법.md",
     "ㄴ. 했던 일/오라클 클라우드 환경 조성/1단계 - 유료 계정 전환, 인스턴스 생성, 예약된 퍼블릭 IP 주소 할당.md",
-    "ㄴ. 했던 일/오라클 클라우드 환경 조성/2단계 - 알림 설정, ssh 접속.md",
-    "ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
     "ㅁ. 문제 해결/통신 에러 처리(catch) 에서 타입 설정 방법.png",
     "ㄹ. 학습/SQLite/이미지/Untitled.png",
     "ㄹ. 학습/SQLite/이미지/Untitled 1.png",
@@ -222,7 +223,6 @@
     "ㄹ. 학습/SQLite/이미지/Untitled 3 1.png",
     "ㄹ. 학습/SQLite/이미지/Untitled 6.png",
     "ㄹ. 학습/SQLite/이미지/Untitled 7.png",
-    "ㄹ. 학습/SQLite/이미지/Untitled 7 1.png",
     "ㄹ. 학습/SQLite/이미지",
     "ㄴ. 했던 일/프로젝트 관련",
     "ㅎ. 이미지 모음",

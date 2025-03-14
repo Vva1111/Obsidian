@@ -50,7 +50,7 @@
 - **git config --global credential.helper store 
 - git config --list의 credential 항목은 Git에서 사용하는 인증 정보에 관련된 설정을 나타낸다.
 	 원격 저장소와의 통신에는 매번 사용자 인증 정보가 필요한데, 이를 기억하게 하기 위한 기능이다.
-	 - Credential.helper : Git이 인증 정보를 어떻게 저장하고 찾을지 결정
+	 - **Credential.helper** : Git이 인증 정보를 어떻게 저장하고 찾을지 결정
 		 - 옵션 목록
 			 - **store** : 인증 정보를 평문으로 git-credentials 파일에 저장, 
 			 - **cache** : 인증 정보를 일정 시간 동안 메모리에 저장, 기본 15분, 'cache --timeout=시간' 으로 timeout 시간 설정 가능
