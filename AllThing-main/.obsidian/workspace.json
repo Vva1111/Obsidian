@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
+                "file": "ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git 명령어 & tip"
+              "title": "2. 해야할 일 ( IDC )"
             }
           }
         ],
@@ -187,6 +187,8 @@
   },
   "active": "9a7ab77cbafa964c",
   "lastOpenFiles": [
+    "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+    "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㅁ. 문제 해결/Vite 빌드 파일 제외 적용.md",
     "ㅁ. 문제 해결/Vue computed 속성 미반응 문제.md",
     "ㅁ. 문제 해결/routesDefault에서 name 적용이 안되는 경우.md",
@@ -195,8 +197,6 @@
     "ㅁ. 문제 해결/서버에 올린 GUI에서 활성화 된 서버에 접근이 되지 않는 문제 - Nginx upstream server 설정 문제.md",
     "ㅎ. 이미지 모음/Pasted image 20250313171814.png",
     "ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
-    "ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
-    "ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "ㄴ. 했던 일/GIT 초기 구성.md",
     "ㄷ. 문법 or 사용법 모음/PanDoc 사용방식.md",
     "ㄴ. 했던 일/Nginx를 사용한 다수의 프로젝트 배포.md",
