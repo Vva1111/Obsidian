@@ -25,18 +25,15 @@
             "id": "fbf359c6b3232739",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "image",
               "state": {
-                "aFile": ".obsidian/core-plugins.json",
-                "bFile": ".obsidian/core-plugins.json",
-                "aRef": ""
+                "file": "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250325151246.png"
               },
-              "icon": "diff",
-              "title": "Diff: core-plugins.json"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250325151246"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,11 +191,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbf359c6b3232739",
+  "active": "fadcae4bffa1924b",
   "lastOpenFiles": [
-    "ESlint, Prettier 설정.md",
-    "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250325151246.png",
+    "AllThing-main/Untitled.canvas",
+    "README.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
-    "README.md"
+    "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md"
   ]
 }
