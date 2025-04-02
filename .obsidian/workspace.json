@@ -4,33 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "48db41725fbff9d8",
+        "id": "1569cfd13d2215fb",
         "type": "tabs",
         "children": [
           {
-            "id": "fadcae4bffa1924b",
+            "id": "9b101cb6d8cb7758",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "fbf359c6b3232739",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250325151246.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250325151246"
+              "icon": "lucide-file",
+              "title": "2. 해야할 일 ( IDC )"
             }
           }
         ]
@@ -191,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fadcae4bffa1924b",
+  "active": "9b101cb6d8cb7758",
   "lastOpenFiles": [
     "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
