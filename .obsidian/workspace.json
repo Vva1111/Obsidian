@@ -4,21 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "32f1f5d2cdf680e9",
+        "id": "1569cfd13d2215fb",
         "type": "tabs",
         "children": [
           {
-            "id": "85cbb374a37c9cf7",
+            "id": "9b101cb6d8cb7758",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "ESlint, Prettier 설정"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "fbf359c6b3232739",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250325151246.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250325151246"
             }
           }
         ]
@@ -179,14 +191,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85cbb374a37c9cf7",
+  "active": "9b101cb6d8cb7758",
   "lastOpenFiles": [
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md",
+    "conflict-files-obsidian-git.md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
-    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250325151246.png",
-    "AllThing-main/Untitled.canvas",
-    "README.md"
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250325151246.png"
   ]
 }
