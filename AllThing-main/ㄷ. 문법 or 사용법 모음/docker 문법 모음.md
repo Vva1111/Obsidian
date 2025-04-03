@@ -47,11 +47,12 @@
 
 - **docker rm** : 한 개 이상의 컨테이너 삭제
 	1. **docker ps -a** : 도커 컨테이너 목록 확인
-	2. docker stop {컨테이너 이름 또는 아이디}
-	3. docker rm {컨테이너 이름 또는 아이디}
+	2. **docker stop** {컨테이너 이름 또는 아이디}
+	3. **docker rm** {컨테이너 이름 또는 아이디}
 - **docker rmi** : 한 개 이상의 이미지 삭제
 	- **docker rmi $(docker images | grep <image_name> | awk '{print $3}')** : 이미지 이름에 해당하는 이미지만 삭제
 		- **awk '{print $3}'** :  각 행의 3번째 열(이미지 id)을 추출
+	- **docker rmi -f <image name / id>** : 도커 이미지 강제 삭제
 
 - **docker exec -it {컨테이너 이름 또는 id} bash
 	- 컨테이너 내부에 설치되어 있는 이미지의 경우, 호스트 시스템에서 직접 해당 이미지의 명령어를 실행할 수 없기 때문에 컨테이너 내부로 진입해 명령어를 실행해야 한다. 
