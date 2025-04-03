@@ -11,10 +11,14 @@
             "id": "afeaf016efcc8542",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+                "bFile": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 2. 해야할 일 ( IDC )"
             }
           }
         ]
@@ -177,13 +181,15 @@
   },
   "active": "afeaf016efcc8542",
   "lastOpenFiles": [
+    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+    "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/리눅스 명령어.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/Window CMD(명령 프롬프트) 문법.md",
     "conflict-files-obsidian-git.md",
     "README.md",
     "AllThing-main/Untitled.canvas",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md",
-    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
-    "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250325151246.png"
   ]
 }
