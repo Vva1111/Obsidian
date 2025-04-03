@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9079e63aefb7d05c",
+        "id": "9c9f70019c2df134",
         "type": "tabs",
         "children": [
           {
-            "id": "afeaf016efcc8542",
+            "id": "9596b88540a29c0e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
-                "bFile": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
-                "aRef": ""
+                "file": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 2. 해야할 일 ( IDC )"
+              "icon": "lucide-file",
+              "title": "2. 해야할 일 ( IDC )"
             }
           }
         ]
@@ -179,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "afeaf016efcc8542",
+  "active": "9596b88540a29c0e",
   "lastOpenFiles": [
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
