@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+                "file": "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 해야할 일 ( IDC )"
+              "title": "1. 접속, 인증 정보 등등"
             }
           }
         ]
@@ -181,12 +181,12 @@
   },
   "active": "9b101cb6d8cb7758",
   "lastOpenFiles": [
+    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/버전 프리징 과정.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250325151246.png",
     "AllThing-main/Untitled.canvas",
-    "README.md",
-    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md"
+    "README.md"
   ]
 }
