@@ -11,10 +11,14 @@
             "id": "0232a0c8c13b86c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2. 해야할 일 ( IDC )"
             }
           }
         ]
@@ -174,13 +178,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "517012760fd2f64c",
+  "active": "0232a0c8c13b86c6",
   "lastOpenFiles": [
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
-    "AllThing-main/ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
-    "AllThing-main/ㄱ. 해야할 일/해야할 공부.md",
-    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+    "AllThing-main/ㄱ. 해야할 일/해야할 공부.md",
+    "AllThing-main/ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
+    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/타입스크립트 문법 Tip.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/JS, TS.md",
     "README.md",
