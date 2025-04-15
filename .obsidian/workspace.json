@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d6dbffffa8e61faf",
+        "id": "1569cfd13d2215fb",
         "type": "tabs",
         "children": [
           {
-            "id": "0232a0c8c13b86c6",
+            "id": "9b101cb6d8cb7758",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
-                "mode": "source",
-                "source": false
+                "aFile": "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
+                "bFile": "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2. 해야할 일 ( IDC )"
+              "icon": "diff",
+              "title": "Diff: 3. 해야할 일 ( Garnet & Davis )"
             }
           }
         ]
@@ -94,7 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": true,
+                "file": "ESlint, Prettier 설정.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for ESlint, Prettier 설정"
             }
           },
           {
@@ -178,19 +179,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0232a0c8c13b86c6",
+  "active": "9b101cb6d8cb7758",
   "lastOpenFiles": [
-    "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
-    "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
-    "AllThing-main/ㄱ. 해야할 일/해야할 공부.md",
-    "AllThing-main/ㄱ. 해야할 일/GARNET V1.3 변경 or 확정 사항들.md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/타입스크립트 문법 Tip.md",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/JS, TS.md",
-    "README.md",
+    "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
+    "AllThing-main/ㄱ. 해야할 일/해야할 공부.md",
+    "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "AllThing-main/Untitled.canvas",
-    "AllThing-main/ㅁ. 문제 해결/서버에 올린 GUI에서 활성화 된 서버에 접근이 되지 않는 문제 - Nginx upstream server 설정 문제.md",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/리눅스 설치 과정.md",
+    "README.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/버전 프리징 과정.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250325151246.png"
