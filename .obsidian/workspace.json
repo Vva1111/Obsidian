@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1569cfd13d2215fb",
+        "id": "eeb041a9f7011b1e",
         "type": "tabs",
         "children": [
           {
-            "id": "9b101cb6d8cb7758",
+            "id": "d3cc003f9e1226a9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
-                "bFile": "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
-                "aRef": ""
+                "file": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 3. 해야할 일 ( Garnet & Davis )"
+              "icon": "lucide-file",
+              "title": "2. 해야할 일 ( IDC )"
             }
           }
         ]
@@ -179,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b101cb6d8cb7758",
+  "active": "d3cc003f9e1226a9",
   "lastOpenFiles": [
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
