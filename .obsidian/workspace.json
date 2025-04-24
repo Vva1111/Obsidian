@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "155265bafae50bcd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
+          },
+          {
             "id": "71eb608c4c436a5d",
             "type": "leaf",
             "state": {
@@ -35,7 +47,8 @@
               "title": "VSCode 디버깅"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,7 +206,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d3cc003f9e1226a9",
+  "active": "155265bafae50bcd",
   "lastOpenFiles": [
     "VSCode 디버깅.md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
