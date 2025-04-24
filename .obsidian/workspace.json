@@ -35,8 +35,7 @@
               "title": "VSCode 디버깅"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,10 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71eb608c4c436a5d",
+  "active": "d3cc003f9e1226a9",
   "lastOpenFiles": [
-    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "VSCode 디버깅.md",
+    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
     "AllThing-main/ㄱ. 해야할 일/해야할 공부.md",
