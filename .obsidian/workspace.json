@@ -61,8 +61,7 @@
               "title": "Diff: workspace.json"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,10 +219,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71eb608c4c436a5d",
+  "active": "d3cc003f9e1226a9",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "VSCode 디버깅.md",
+    "conflict-files-obsidian-git.md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
