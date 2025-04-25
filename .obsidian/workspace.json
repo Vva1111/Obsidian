@@ -46,6 +46,20 @@
               "icon": "lucide-file",
               "title": "VSCode 디버깅"
             }
+          },
+          {
+            "id": "fac8ff6f8c1c1bae",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
           }
         ],
         "currentTab": 2
@@ -208,6 +222,7 @@
   },
   "active": "71eb608c4c436a5d",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "VSCode 디버깅.md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
