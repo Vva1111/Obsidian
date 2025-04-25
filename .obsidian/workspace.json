@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "fb6fb1dc19be679e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AllThing-main/ㄴ. 했던 일/다중 SPA 프로젝트 간 인증 연동 이슈.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "다중 SPA 프로젝트 간 인증 연동 이슈"
+            }
+          },
+          {
             "id": "155265bafae50bcd",
             "type": "leaf",
             "state": {
@@ -39,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VSCode 디버깅.md",
+                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/VSCode 디버깅.md",
                 "mode": "source",
                 "source": false
               },
@@ -47,7 +61,8 @@
               "title": "VSCode 디버깅"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,11 +220,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "517012760fd2f64c",
+  "active": "fb6fb1dc19be679e",
   "lastOpenFiles": [
-    "VSCode 디버깅.md",
-    "conflict-files-obsidian-git.md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+    "AllThing-main/ㄴ. 했던 일/다중 SPA 프로젝트 간 인증 연동 이슈.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/VSCode 디버깅.md",
+    "conflict-files-obsidian-git.md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
     "AllThing-main/ㄱ. 해야할 일/해야할 공부.md",
