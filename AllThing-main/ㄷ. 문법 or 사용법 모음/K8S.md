@@ -9,7 +9,7 @@
 
 pod(jade-web.yaml), sevice(jade-web-service.yaml) 파일을 
 고객사에 가져가서
-shell 명령을 통해
+shell 명령을 통해 ( 해당 파일 실행하고 적용할 수 있는 명령어, 그에 필요한 사전 명령어 순서대로 )
 pod, service 를 k8s 서버에 설치
 1. 정상 설치 확인
 2. nodePort 접근 확인, 화면 정상적으로 뜨는지 확인
