@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+                "file": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 접속, 인증 정보 등등"
+              "title": "2. 해야할 일 ( IDC )"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Git 명령어 & tip"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,9 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5264543ae5bd74a2",
+  "active": "d3cc003f9e1226a9",
   "lastOpenFiles": [
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8S.md",
