@@ -5,7 +5,11 @@
 2. 생성된 build 결과물을 러너 임시 컨테이너 내부의 특정 디렉토리로 옮김 ( cp )
 	![[Pasted image 20250520110113.png]]
 3. 기존에 gitlab-runner 컨테이너 내부 config.toml 설정에 2의 빌드 결과물을 host 로 가지고 올 수 있는 볼륨 설정 ( /data:/data )
+	![[Pasted image 20250520110604.png]]
 4. 이 과정에서 생성된 Build 결과물들이 host 의 특정 디렉토리에 위치할 수 있게 됨
+	![[Pasted image 20250520110907.png]] - Host 디렉토리
+	![[Pasted image 20250520110113.png]] - gitlab-runner 임시 컨테이너 내부 디렉토리 생성
+	위 두 디렉토리를 볼륨 연결
 
 ### Integrate ( 프론트 엔드 프로젝트 - Nginx 통합 ) 프로젝트
 1. Dockerfile 을 사용한 Nginx 이미지 빌드
@@ -13,6 +17,8 @@
 3. docker-compose 사용해서 컨테이너 생성, 실행
 	1. docker-compose 에서 컨테이너를 생성, 실행하는 과정에서
 	2. host의 디렉토리에 존재하는 SPA build 결과물 파일을 웹서버 컨테이너에서 읽어들일 수 있도록 볼륨을 설정
+	![[Pasted image 20250520111335.png]] 
+	- Host(/data/~) 와 컨테이너 (/home/~) 볼륨 연결
 4. 위 과정을 통해, 컨테이너 내부에 SPA 빌드 결과물인 정적 파일들이 위치하게 되고, 화면을 제공할 수 있게 된다.
 
 ## 변경 사항
