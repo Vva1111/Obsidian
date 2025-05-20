@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 해야할 일 ( IDC )"
+              "title": "Git 명령어 & tip"
             }
           }
         ],
@@ -210,6 +210,7 @@
   },
   "active": "46164076d3c61881",
   "lastOpenFiles": [
+    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄴ. 했던 일/인증/SSO 인증 화면 처리.md",
     "Pasted image 20250520120310.png",
     "AllThing-main/ㄴ. 했던 일/오라클 클라우드 환경 조성/2단계 - 알림 설정, ssh 접속.md",
@@ -230,7 +231,6 @@
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8S.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성",
-    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/VSCode 디버깅.md",
