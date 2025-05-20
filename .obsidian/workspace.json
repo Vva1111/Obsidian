@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㄴ. 했던 일/K8s 환경으로 CICD 구성/프로젝트 CICD Docker 에서 k8s 방식 변경.md",
+                "file": "AllThing-main/ㄴ. 했던 일/오라클 클라우드 환경 조성/2단계 - 알림 설정, ssh 접속.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "프로젝트 CICD Docker 에서 k8s 방식 변경"
+              "title": "2단계 - 알림 설정, ssh 접속"
             }
           }
         ],
@@ -196,21 +196,24 @@
   },
   "active": "5264543ae5bd74a2",
   "lastOpenFiles": [
-    "Pasted image 20250520113026.png",
-    "Pasted image 20250520112759.png",
-    "Pasted image 20250520112711.png",
-    "Pasted image 20250520112708.png",
-    "Pasted image 20250520112643.png",
-    "Pasted image 20250520112631.png",
-    "Pasted image 20250520112452.png",
-    "Pasted image 20250520112432.png",
-    "Pasted image 20250520112428.png",
-    "Pasted image 20250520112224.png",
-    "Pasted image 20250520112121.png",
+    "AllThing-main/ㄴ. 했던 일/오라클 클라우드 환경 조성/1단계 - 유료 계정 전환, 인스턴스 생성, 예약된 퍼블릭 IP 주소 할당.md",
+    "AllThing-main/Untitled.canvas",
+    "AllThing-main/ㄴ. 했던 일/인증",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520112117.png",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520112121.png",
+    "AllThing-main/ㄴ. 했던 일/Node.js 버전 업그레이드/Node.js 버전 업그레이드.md",
+    "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성/프로젝트 CICD Docker 에서 k8s 방식 변경.md",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520113026.png",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520112759.png",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520112711.png",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520112708.png",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520112643.png",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520112631.png",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520112452.png",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520112432.png",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8S.md",
-    "AllThing-main/ㄴ. 했던 일/K8s 환경으로 CICD 구성/프로젝트 CICD Docker 에서 k8s 방식 변경.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
-    "AllThing-main/ㄴ. 했던 일/K8s 환경으로 CICD 구성",
+    "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
@@ -218,7 +221,6 @@
     "AllThing-main/ㄴ. 했던 일/다중 SPA 프로젝트 간 인증 연동 이슈.md",
     "conflict-files-obsidian-git.md",
     "AllThing-main/ㄱ. 해야할 일/해야할 공부.md",
-    "AllThing-main/Untitled.canvas",
     "README.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/버전 프리징 과정.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md"
