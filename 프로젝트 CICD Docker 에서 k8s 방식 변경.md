@@ -6,4 +6,6 @@
 4. 이 과정에서 생성된 Build 결과물들이 host 의 특정 디렉토리에 위치할 수 있게 됨
 
 ### Integrate(프론트 엔드 프로젝트 - Nginx 통합) 프로젝트
-1. 
+1. Dockerfile 을 사용한 Nginx 이미지 빌드
+2. 빌드 된 이미지 저장소에 push
+3. 
