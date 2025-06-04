@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 해야할 일 ( IDC )"
+              "title": "Git 명령어 & tip"
             }
           }
         ]
@@ -181,6 +181,7 @@
   },
   "active": "d3cc003f9e1226a9",
   "lastOpenFiles": [
+    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "Pasted image 20250520120310.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110755.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110604.png",
@@ -193,7 +194,6 @@
     "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성/프로젝트 CICD Docker 에서 k8s 방식 변경.md",
     "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성",
     "conflict-files-obsidian-git.md",
-    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/VSCode 디버깅.md",
     "AllThing-main/ㄴ. 했던 일/다중 SPA 프로젝트 간 인증 연동 이슈.md",
     "VSCode 디버깅.md",
