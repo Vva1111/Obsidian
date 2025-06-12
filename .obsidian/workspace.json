@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#kubectl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d3cc003f9e1226a9",
+  "active": "157f1a47eb56bdf9",
   "lastOpenFiles": [
     "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",

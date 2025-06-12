@@ -35,7 +35,7 @@ pod, service 를 k8s 서버에 설치
 		- Set-Alias kaf 'kubectl apply -f'
 	- 위와 같은 명령을 저장해 alias 설정을 추가할 수 있다.
 
-#### Helm
+### Helm
 - K8s 패키지 매니저 ( K8s 앱 설치, 관리 도구 )
 - ex) 리눅스 apt, yum, brew 등과 비슷
 - K8s 리소스를 직접 만들려면 .yaml 파일을 여러 개(deploy, service, configmap 등등..) 작성해야 하지만, 이들을 한 번에 템플릿화 하고 재사용 가능하게 만드는 역할
@@ -51,7 +51,7 @@ pod, service 를 k8s 서버에 설치
 		- bitnami/nginx Chart를 설치하고, 이 설치 인스턴스의 이름을 nginx 로 설정한다.
 		- 위 명령 실행 시, K8s 에 Nginx deploy, service 등이 자동으로 생성된다.
 
-- values.yaml
+- #### values.yaml
 	- **options**
 		- **replicaCount** : 생성할 파드 수 ( deployment의 replicas )
 		- **image.repositoy** : 사용할 도커 이미지의 이름
@@ -64,3 +64,23 @@ pod, service 를 k8s 서버에 설치
 		- **ingress.host** : 도메인과 경로 설정
 		- **resources.limits/requests** : 컨테이너의 CPU/메모리 제한 및 요청 설정
 		- **env** : 파드에 주입할 환경 변수 목록
+
+### docker registry용 secret 생성 kubectl 명령어
+복사
+```
+#kubectl create secret docker-registry <시크릿이름> \
+	# --docker-server=<레지스트리주소> \
+	# --docker-username=<사용자명> \
+	# --docker-password=<비밀번호나토큰> \ 
+	# -n <네임스페이스> 
+	
+kubectl create secret docker-registry bmp-repo-sec \
+	--docker-server=harbor1.dev.spinel-cloud.com \
+	--docker-username=user-spinel \
+	--docker-password=0701dPtm \
+	-n gitlab-runner 
+	
+# 생성 확인 
+	kubectl get secret -n gitlab-runner
+```
+
