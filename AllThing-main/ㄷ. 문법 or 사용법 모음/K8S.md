@@ -50,6 +50,15 @@ pod, service 를 k8s 서버에 설치
 	- **helm install nginx bitnami/nginx**
 		- bitnami/nginx Chart를 설치하고, 이 설치 인스턴스의 이름을 nginx 로 설정한다.
 		- 위 명령 실행 시, K8s 에 Nginx deploy, service 등이 자동으로 생성된다.
+```
+helm install gitlab-runner gitlab/gitlab-runner \
+  --namespace gitlab-runner \
+  --create-namespace \
+  --set gitlabUrl=https://gitlab.com/ \
+  --set runnerRegistrationToken=<YOUR_REGISTRATION_TOKEN> \
+  --set rbac.create=true \
+  --set runners.executor=kubernetes
+``` 
 
 - #### values.yaml
 	- **options**
