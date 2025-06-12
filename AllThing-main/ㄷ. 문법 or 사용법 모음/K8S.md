@@ -17,7 +17,7 @@ pod, service 를 k8s 서버에 설치
 2. nodePort 접근 확인, 화면 정상적으로 뜨는지 확인
 
 ### alias 설정
-- window 의 경우, $PROFILE 내부에 alias 설정을 통해 alias 를 사용할 수 있는데,
+- window 의 경우, **$PROFILE** 내부에 alias 설정을 통해 alias 를 사용할 수 있는데,
 - notepad $PROFILE 로 해당 파일에 설정이 적용되어 있는지 확인할 수 있다.
 - 만약 해당 파일이 없다면,
 	- New-Item -ItemType File -Path $PROFILE -Force
@@ -34,3 +34,33 @@ pod, service 를 k8s 서버에 설치
 		- Set-Alias kgp 'kubectl get pods'
 		- Set-Alias kaf 'kubectl apply -f'
 	- 위와 같은 명령을 저장해 alias 설정을 추가할 수 있다.
+
+#### Helm
+- K8s 패키지 매니저 ( K8s 앱 설치, 관리 도구 )
+- ex) 리눅스 apt, yum, brew 등과 비슷
+- K8s 리소스를 직접 만들려면 .yaml 파일을 여러 개(deploy, service, configmap 등등..) 작성해야 하지만, 이들을 한 번에 템플릿화 하고 재사용 가능하게 만드는 역할
+- 핵심 개념
+	- **Chart** : Helm 패키지, K8s 리소스 템플릿들이 담겨 있는 폴더 구조
+	- **Release** : 특정 Chart를 클러스에 설치한 실행 인스턴스
+	- **Repository** : 여러 Chart가 저장된 저장소 ( 예: `https://charts.gitlab.io/` )
+	- **Values**(.yaml) : Chart 템플릿에 주입하는 변수 설정 파일
+- 명령어
+	- **helm repo add docker-repository 주소**
+		- docker-repository 라는 이름으로 특정 주소에 있는 애플리케이션 Chart가 들어있는  Helm Chart 저장소를 추가한다.
+	- **helm install nginx bitnami/nginx**
+		- bitnami/nginx Chart를 설치하고, 이 설치 인스턴스의 이름을 nginx 로 설정한다.
+		- 위 명령 실행 시, K8s 에 Nginx deploy, service 등이 자동으로 생성된다.
+
+- values.yaml
+	- **options**
+		- **replicaCount** : 생성할 파드 수 ( deployment의 replicas )
+		- **image.repositoy** : 사용할 도커 이미지의 이름
+		- **image.tag** : 사용할 이미지 버전
+		- **image.pullPolicy** : 이미지를 가져올 정책 ( Always, IfNotPresent, Never )
+		- **service.type** : K8s service 타입 ( ClusterIP, NodePort, LoadBalancer )
+		- **ingress.port** : 외부에 노출할 포트
+		- **ingress.enable** : Ingress 리소스를 만들지 여부
+		- **ingress.className** : 사용항 Ingress 클래스 이름 ( nginx. alb, trafik 등)
+		- **ingress.host** : 도메인과 경로 설정
+		- **resources.limits/requests** : 컨테이너의 CPU/메모리 제한 및 요청 설정
+		- **env** : 파드에 주입할 환경 변수 목록
