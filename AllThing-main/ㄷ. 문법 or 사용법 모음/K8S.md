@@ -87,7 +87,7 @@ kubectl create secret docker-registry bmp-repo-sec \
 	--docker-server=harbor1.dev.spinel-cloud.com \
 	--docker-username=user-spinel \
 	--docker-password=0701dPtm \
-	-n gitlab-runner 
+	-n gitlab-runner-fe
 	
 # 생성 확인 
 	kubectl get secret -n gitlab-runner
