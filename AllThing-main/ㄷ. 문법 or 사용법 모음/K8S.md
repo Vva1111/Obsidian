@@ -94,13 +94,27 @@ kubectl create secret docker-registry bmp-repo-sec \
 ```
 
 ### helm 설정 install
+1. **로컬에 helm chart 디렉토리(기본 차트)를 먼저 생성한다.**
+```
+helm create my-chart
+```
+	- 생성된 로컬 디렉토리는 helm 차트의 기본 디렉토리 구조(./template 등)와 파일들
+	(values.yaml 등)이 자동으로 생성
+	- 이것이 '템플릿' 시작점이고, 여기서 template/ 와 values.yaml 등을 수정해서 원하
+	는 형태로 차트를 구성할 수 있다.
+
+2. **values.yaml 수정**
+	- values.yaml은 템플릿 파일을 직접 수정하는 것이 아니라, helm이 템플릿을 렌더링할 때 값을 주입하는 방식이다.
+	- 수정한 values.yaml 은
+		- ./template/ 내부의 템플릿 파일들이 {{ .Values.XXX }} 처럼 정의한 부분에 values.yaml 에 작성한 값들이 자동으로 렌더링 시점에 치환되어 적용된다.
+
+3. **설치**
+- install 명령어 실행 시, 네임스페이스 항상 명시가 권장된다.
+```
+helm install my-app ./my-chart -f values.yaml -n my-namespace --create-namespace
+```
 - 네임 스페이스 지정하지 않을 시,
 ```
 kubectl config view --minify
 ```
 로 확인되는 기본 네임스페이스에 설치된다.
-
-- install 명령어 실행 시, 네임스페이스 항상 명시가 권장된다.
-```
-helm install my-app ./my-chart -f values.yaml -n my-namespace --create-namespace
-```
