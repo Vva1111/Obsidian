@@ -93,3 +93,14 @@ kubectl create secret docker-registry bmp-repo-sec \
 	kubectl get secret -n gitlab-runner
 ```
 
+### helm 설정 install
+- 네임 스페이스 지정하지 않을 시,
+```
+kubectl config view --minify
+```
+로 확인되는 기본 네임스페이스에 설치된다.
+
+- install 명령어 실행 시, 네임스페이스 항상 명시가 권장된다.
+```
+helm install my-app ./my-chart -f values.yaml -n my-namespace --create-namespace
+```
