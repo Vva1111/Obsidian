@@ -81,7 +81,7 @@ kubectl create secret docker-registry bmp-repo-secret \
 	-n gitlab-runner-fe
 	
 # 생성 확인 
-	kubectl get secret -n gitlab-runner
+	kubectl get secret -n gitlab-runner-fe
 ```
 
 ### helm 설정 install
