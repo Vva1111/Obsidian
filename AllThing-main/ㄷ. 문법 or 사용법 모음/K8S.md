@@ -83,7 +83,7 @@ helm install gitlab-runner gitlab/gitlab-runner \
 	# --docker-password=<비밀번호나토큰> \ 
 	# -n <네임스페이스> 
 	
-kubectl create secret docker-registry bmp-repo-sec \
+kubectl create secret docker-registry bmp-repo-secret \
 	--docker-server=harbor1.dev.spinel-cloud.com \
 	--docker-username=user-spinel \
 	--docker-password=0701dPtm \
