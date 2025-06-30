@@ -11,12 +11,12 @@
 		- k8s service 이름으로 api 요청 중인 현재 방식으로는 사용할 수 없음
 		- ( 단순 http://ip~ 적용 했을 때는 안 되는 것 같았는데 이건 테스트 필요)
 			- ![[Pasted image 20250630154124.png]]
-			- 위 방식으로 적용했을 때는 차단됨 뜸
+			- 위 방식으로 적용했을 때는 차단됨 뜸 -> 아마 html 에서 직접 보내는 요청은 차단시키는 듯(보안?)
 	3. img 태그에 적용된 이미지 경로 또한 서버에 요청을 해서 로딩하는 방식이기 때문에 nginx를 거쳐서 요청이 필요함
 	4. 또한, 모든 static 요청에 대해 공통으로 처리 필요
 
 - **해결**
-	1. ![[Pasted image 20250630145321.png]]
+	1. ![[Pasted image 20250630155548.png]]
 		- 기존 davis api를 요청하던 방식으로 /static 으로 시작하는 요청에 대한 nginx 설정 적용
 		- 이렇게 하게 되면 jade-backend(Jade-Davis 공통 Gateway 주소(upstream)) 를 공통으로 사용해 davis의 static 파일 요청을 전송할 수 있게 된다.
 		- jade-backend(Gateway) 에서 /davis-lite 요청을 파악하고 davis-list 의 /static 으로 요청 우회
