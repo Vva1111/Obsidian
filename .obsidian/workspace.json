@@ -4,61 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "eeb041a9f7011b1e",
+        "id": "1a8e136905a91080",
         "type": "tabs",
         "children": [
           {
-            "id": "d3cc003f9e1226a9",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630155548.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250630155548"
-            }
-          },
-          {
-            "id": "5828f3c84964a7d0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630154124.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250630154124"
-            }
-          },
-          {
-            "id": "7e35c08d3970141c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630145647.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250630145647"
-            }
-          },
-          {
-            "id": "3eac6e3dc59e607d",
+            "id": "2a4159285a9a4d23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8S.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "K8S"
+            }
+          },
+          {
+            "id": "27ca11a4a8610615",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Service Yaml 설정.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "K8s Service Yaml 설정"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 214.5
   },
   "right": {
     "id": "7a125109d607ec2e",
@@ -203,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,11 +194,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3eac6e3dc59e607d",
+  "active": "27ca11a4a8610615",
   "lastOpenFiles": [
-    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630155548.png",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8S.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Service Yaml 설정.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s",
+    "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성/프로젝트 CICD Docker 에서 k8s 방식 변경.md",
+    "README.md",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630145647.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630154124.png",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630155548.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630145636.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630145321.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520120310.png",
@@ -235,10 +218,8 @@
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110604.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110113.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110103.png",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8S.md",
     "AllThing-main/ㄴ. 했던 일/인증/SSO 인증 화면 처리.md",
     "AllThing-main/ㄴ. 했던 일/인증",
-    "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성/프로젝트 CICD Docker 에서 k8s 방식 변경.md",
     "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/VSCode 디버깅.md",
     "AllThing-main/ㄴ. 했던 일/다중 SPA 프로젝트 간 인증 연동 이슈.md",
@@ -246,7 +227,6 @@
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
     "AllThing-main/ㄱ. 해야할 일/해야할 공부.md",
-    "README.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/버전 프리징 과정.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md"
   ]
