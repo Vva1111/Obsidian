@@ -179,31 +179,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "517012760fd2f64c",
+  "active": "d3cc003f9e1226a9",
   "lastOpenFiles": [
+    "로컬에서 요청한 PNG 이미지 파일과 배포 버전에서 요청한 결과가 다를 때.md",
+    "conflict-files-obsidian-git.md",
+    "AllThing-main/Untitled.canvas",
+    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
+    "Pasted image 20250630155548.png",
+    "Pasted image 20250630154124.png",
+    "Pasted image 20250630145647.png",
+    "Pasted image 20250630145636.png",
+    "Pasted image 20250630145321.png",
     "Pasted image 20250520120310.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110755.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110604.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110113.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110103.png",
-    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110057.png",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8S.md",
     "AllThing-main/ㄴ. 했던 일/인증/SSO 인증 화면 처리.md",
     "AllThing-main/ㄴ. 했던 일/인증",
     "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성/프로젝트 CICD Docker 에서 k8s 방식 변경.md",
     "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성",
-    "conflict-files-obsidian-git.md",
-    "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/VSCode 디버깅.md",
     "AllThing-main/ㄴ. 했던 일/다중 SPA 프로젝트 간 인증 연동 이슈.md",
     "VSCode 디버깅.md",
     "AllThing-main/ㄱ. 해야할 일/1. 접속, 인증 정보 등등.md",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
     "AllThing-main/ㄱ. 해야할 일/해야할 공부.md",
-    "AllThing-main/Untitled.canvas",
     "README.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/버전 프리징 과정.md",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md",
-    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250325151246.png"
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/ESlint, Prettier 설정.md"
   ]
 }
