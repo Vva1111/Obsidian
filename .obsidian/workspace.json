@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㄴ. 했던 일/프로젝트 초기 구성/멀티 레포에서 모노 레포 프로젝트 구성으로 마이그레이션 작업.md",
+                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "멀티 레포에서 모노 레포 프로젝트 구성으로 마이그레이션 작업"
+              "title": "Git 명령어 & tip"
             }
           }
         ],
@@ -196,8 +196,9 @@
   },
   "active": "70d75aa4512cf32e",
   "lastOpenFiles": [
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/리눅스 명령어.md",
+    "AllThing-main/ㄴ. 했던 일/GIT 초기 구성.md",
     "AllThing-main/ㄴ. 했던 일/프로젝트 초기 구성/멀티 레포에서 모노 레포 프로젝트 구성으로 마이그레이션 작업.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/리눅스 명령어.md",
     "AllThing-main/ㄴ. 했던 일/프로젝트 초기 구성",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/리눅스 설치 과정.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
