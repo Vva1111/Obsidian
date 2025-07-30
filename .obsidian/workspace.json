@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Config 공통관리.md",
+                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8S.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "K8s Config 공통관리"
+              "title": "K8S"
             }
           }
         ]
@@ -181,11 +181,11 @@
   },
   "active": "8f74b7a7251866f3",
   "lastOpenFiles": [
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Service Yaml 설정.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Config 공통관리.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8S.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133751.png",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Service Yaml 설정.md",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Config 공통관리.md",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133848.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133824.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133729.png",

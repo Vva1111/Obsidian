@@ -87,7 +87,7 @@ kubectl create secret docker-registry bmp-repo-secret \
 ### helm 설정 install
 1. **Gitlab Helm 저장소 추가**
 ```
-helm repo add gitlab https://charts.gitlab.io 
+helm repo add gitlab https://charts.gitlab.io
 ```
 
 2. **values.yaml 수정**
