@@ -47,12 +47,14 @@
             "id": "8f74b7a7251866f3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133848.png"
+                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Config 공통관리.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250723133848"
+              "icon": "lucide-file",
+              "title": "K8s Config 공통관리"
             }
           }
         ],
@@ -113,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 280.5
   },
   "right": {
     "id": "7a125109d607ec2e",
@@ -201,7 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,8 +216,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "517012760fd2f64c",
+  "active": "8f74b7a7251866f3",
   "lastOpenFiles": [
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8S.md",
+    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133848.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133824.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133751.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133729.png",
@@ -227,9 +231,7 @@
     "AllThing-main/ㄷ. 문법 or 사용법 모음/리눅스 명령어.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/Untitled.canvas",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Service Yaml 설정.md",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8S.md",
     "AllThing-main/ㄴ. 했던 일/프로젝트 초기 구성/멀티 레포에서 모노 레포 프로젝트 구성으로 마이그레이션 작업.md",
-    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133848.png",
     "AllThing-main/ㄴ. 했던 일/프로젝트 초기 구성",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/리눅스 설치 과정.md",
     "로컬에서 요청한 PNG 이미지 파일과 배포 버전에서 요청한 결과가 다를 때.md",
