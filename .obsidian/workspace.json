@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
+                "file": "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Config 공통관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git 명령어 & tip"
+              "title": "K8s Config 공통관리"
             }
           }
         ],
@@ -196,6 +196,7 @@
   },
   "active": "27ca11a4a8610615",
   "lastOpenFiles": [
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133848.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133824.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133751.png",
@@ -208,7 +209,6 @@
     "AllThing-main/ㄴ. 했던 일/프로젝트 초기 구성/멀티 레포에서 모노 레포 프로젝트 구성으로 마이그레이션 작업.md",
     "AllThing-main/ㄴ. 했던 일/프로젝트 초기 구성",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/gitlab-ci.yml 명령어 & Tip.md",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Service Yaml 설정.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8S.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s",
@@ -216,7 +216,6 @@
     "README.md",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630145647.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630154124.png",
-    "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250630155548.png",
     "AllThing-main/ㅍ. 회의 관련/01. 31 2차 개발 컨셉 회의.md",
     "AllThing-main/ㄴ. 했던 일/Nginx를 사용한 다수의 프로젝트 배포.md",
     "AllThing-main/ㅁ. 문제 해결/서버에 올린 GUI에서 활성화 된 서버에 접근이 되지 않는 문제 - Nginx upstream server 설정 문제.md",
