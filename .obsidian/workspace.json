@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "K8s Config 공통관리"
             }
+          },
+          {
+            "id": "1bf8b7c171182dee",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,17 +194,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f74b7a7251866f3",
+  "active": "1bf8b7c171182dee",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Config 공통관리.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8S.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Service Yaml 설정.md",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Config 공통관리.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/Git 명령어 & tip.md",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133751.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133848.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133824.png",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250723133729.png",
-    "conflict-files-obsidian-git.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/타입스크립트 문법 Tip.md",
     "AllThing-main/ㄴ. 했던 일/GIT 초기 구성.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/리눅스 명령어.md",
@@ -208,7 +223,6 @@
     "AllThing-main/ㅁ. 문제 해결/서버에 올린 GUI에서 활성화 된 서버에 접근이 되지 않는 문제 - Nginx upstream server 설정 문제.md",
     "AllThing-main/ㅁ. 문제 해결/로컬에서 요청한 PNG 이미지 파일과 배포 버전에서 요청한 결과가 다를 때.md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
-    "conflict-files-obsidian-git.md",
     "AllThing-main/ㅎ. 이미지 모음/Untitled.canvas",
     "AllThing-main/ㅎ. 이미지 모음/Pasted image 20250520110755.png",
     "AllThing-main/ㄴ. 했던 일/인증/SSO 인증 화면 처리.md",
