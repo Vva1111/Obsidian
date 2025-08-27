@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "K8s Config 공통관리"
             }
-          },
-          {
-            "id": "1bf8b7c171182dee",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1bf8b7c171182dee",
+  "active": "517012760fd2f64c",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Config 공통관리.md",
