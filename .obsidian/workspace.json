@@ -170,6 +170,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -179,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "517012760fd2f64c",
+  "active": "8f74b7a7251866f3",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "AllThing-main/ㄷ. 문법 or 사용법 모음/K8s/K8s Config 공통관리.md",
