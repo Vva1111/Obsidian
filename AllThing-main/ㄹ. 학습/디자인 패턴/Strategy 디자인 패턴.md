@@ -35,8 +35,16 @@
 - 적절한 전략을 선택하기 위해 전략 간의 차이점을 파악하고 있어야 한다. ( 복잡도 상승 )
 
 ### 실무 사용 예시
-- i18n
+- **i18n**
 	- 모든 언어 번역 전략(TranslationStrategy) 은 translate(key: string): string 을 가져야 한다.
 	- 국가 언어 별로 번역(전략) 테이블을 가지고 있음. 각 클래스는 같은 key에 대해 각기 다른 언어 문자열을 반환한다.
 	- TranslationContext 가 현재 언어 상태를 기억하고, 그에 맞는 전략 객체를 내부에 보관한다.
-		- 사용자가 언어를 바꾸면, setLanguage() 와 같은 메서드가 호출되어 Tran
+		- 사용자가 언어를 바꾸면, setLanguage() 와 같은 메서드가 호출되어 TranslationStrategy 가 이전 언어 전략에서 변경하려는 언어 전략으로 변경된다.
+		- UI에서 translate('message') 를 호출하면 Context는 현재 전략에게 위임한다.
+		- context.translate("welcome_message")
+		- → EnStrategy.translate("welcome_message")
+		- → "Welcome!"
+- **날짜 포맷 변경**
+- **통화 포맷 변경**
+- **단위 변경**
+- **테마 변경**
