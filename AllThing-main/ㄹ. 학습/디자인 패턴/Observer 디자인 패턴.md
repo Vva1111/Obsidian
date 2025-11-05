@@ -46,3 +46,11 @@
 - 필요한 데이터만 전달
 - 스레드 / 비동기 고려
 - 많은 컴포넌트가 서로 직접 구독/발행하는 대신 Mediator/Store를 두는 것이 관리에 유리하다.
+
+
+### React에서 Observer 패턴을 이해하는 포인트
+1. React의 렌더링 트리거는 state 변경 -> 'Observer 통지'와 동일
+2. useEffect cleanup = 구독 해제
+3. 전역 상태 관리(store)는 Observable 데이터
+4. 커스텀 훅은 OObservable <-> Component 간 브릿지
+5. RxJS, SWR, React Query 등도 모두 Observer 기반
