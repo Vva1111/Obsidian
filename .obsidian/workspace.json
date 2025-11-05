@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AllThing-main/ㄹ. 학습/디자인 패턴/Observer 디자인 패턴.md",
+                "file": "AllThing-main/ㄹ. 학습/디자인 패턴/Strategy 디자인 패턴.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Observer 디자인 패턴"
+              "title": "Strategy 디자인 패턴"
             }
           }
         ]
@@ -183,6 +183,7 @@
   "active": "bdf7f8351bbb0508",
   "lastOpenFiles": [
     "AllThing-main/ㄹ. 학습/디자인 패턴/Observer 디자인 패턴.md",
+    "AllThing-main/ㄹ. 학습/디자인 패턴/Strategy 디자인 패턴.md",
     "AllThing-main/ㄹ. 학습/디자인 패턴",
     "AllThing-main/ㄱ. 해야할 일/3. 해야할 일 ( Garnet & Davis ).md",
     "AllThing-main/ㄱ. 해야할 일/2. 해야할 일 ( IDC ).md",
@@ -222,7 +223,6 @@
     "AllThing-main/ㄴ. 했던 일/인증/SSO 인증 화면 처리.md",
     "AllThing-main/ㄴ. 했던 일/인증",
     "AllThing-main/ㄴ. 했던 일/K8s + GitLab CICD 구성",
-    "AllThing-main/ㄷ. 문법 or 사용법 모음/VSCode 디버깅.md",
-    "AllThing-main/ㄴ. 했던 일/다중 SPA 프로젝트 간 인증 연동 이슈.md"
+    "AllThing-main/ㄷ. 문법 or 사용법 모음/VSCode 디버깅.md"
   ]
 }
