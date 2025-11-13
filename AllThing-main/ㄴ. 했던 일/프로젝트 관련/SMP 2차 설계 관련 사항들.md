@@ -1,8 +1,3 @@
-- **nachonacho (saas management platform)**
-	suns1997@runningberries.com / duPSC#uiT%9RrH
-- spinel
-		
-
 - 대시보드 스피넬 연동? 새로운 화면?
 - S/W 조회, S/W 등록, S/W 삭제 탭 분리?
 - 설치 화면(wizard 형식으로)
